@@ -39,6 +39,7 @@ action="tawarkan-makanan.html"
 method="get"
 aria-describedby="petunjuk-wajib"
 >
+
 <fieldset>
 <legend>Identitas makanan</legend>
 
@@ -62,8 +63,7 @@ required
 <option value="roti-kue">Roti atau kue</option>
 <option value="buah-sayur">Buah atau sayur</option>
 <option value="minuman">Minuman</option>
-<option value="bahan-pangan">Bahan pangan</option>
-<option value="lainnya">Lainnya</option>
+<option value="bahan-pangan">Bahan pangan</option> <option value="lainnya">Lainnya</option>
 </select>
 </p>
 
@@ -193,8 +193,7 @@ required
 
 <fieldset>
 <legend>Informasi alergen yang diketahui</legend>
-<p>
-    <input type="checkbox" id="alergen-gluten" name="alergen" value="gluten">
+<p><input type="checkbox" id="alergen-gluten" name="alergen" value="gluten">
 <label for="alergen-gluten">Gluten</label>
 </p>
 <p>
@@ -226,15 +225,14 @@ required
 </fieldset>
 
 <fieldset>
-<legend>Konfirmasi keamanan pangan</legend>
-<p>
+<legend>Konfirmasi keamanan pangan</legend> <p>
 <input
 type="checkbox"
 id="konfirmasi-keamanan"
 name="konfirmasi_keamanan"
 value="terkonfirmasi"
 required
-
+>
 <label for="konfirmasi-keamanan">
 Saya memastikan contoh makanan ini masih layak konsumsi dan
 informasi kondisi serta alergennya telah ditulis dengan jujur. *
