@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[82752],{861419(n,r,e){e.r(r);var o=e(326542),s=e.n(o);function t({children:n}){return n(s())}e.d(r,{default:()=>t})},326542(n,r,e){n.exports={locale:"id-ID",i18nStrings:void 0,plural:e(735084)}},735084(n){n.exports=function(n){return 0}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-id_ID-LocaleDataLoader-fbf69ea7341c9a5b.mjs.map
